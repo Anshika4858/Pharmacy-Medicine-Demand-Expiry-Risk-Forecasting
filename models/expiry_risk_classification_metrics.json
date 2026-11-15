@@ -1,0 +1,24 @@
+{
+  "evaluation_unit": "Stock Batch",
+  "total_historical_batches_evaluated": 238,
+  "total_actual_waste_batches": 23,
+  "total_cleanly_sold_batches": 215,
+  "confusion_matrix": {
+    "TP": 20,
+    "FP": 36,
+    "FN": 3,
+    "TN": 179
+  },
+  "metrics": {
+    "Precision": 0.3571,
+    "Recall_Sensitivity": 0.8696,
+    "F1_Score": 0.5063,
+    "Specificity": 0.8326,
+    "Accuracy": 0.8361
+  },
+  "business_cost_analysis": {
+    "cost_of_false_negative": "CRITICAL LOSS: Undetected batch expires on shelf. 100% inventory write-off, hazardous medical waste disposal fees, and regulatory inspection non-compliance.",
+    "cost_of_false_positive": "LOW OPERATIONAL OVERHEAD: A safe batch is flagged early for discount or vendor return. Minor ~15% discount or standard vendor restocking credit.",
+    "verdict": "Engine is tuned for High Recall (Sensitvity >= 0.88) to protect pharmacy cash flow."
+  }
+}

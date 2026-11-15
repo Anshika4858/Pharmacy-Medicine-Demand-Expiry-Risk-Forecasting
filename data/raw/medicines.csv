@@ -1,0 +1,26 @@
+product_id,name,category,form,unit_cost,unit_price,is_prescription_required,storage_condition,shelf_life_months
+MED001,Amoxicillin 500mg,Antibiotics,Capsule,4.5,9.0,True,Room Temperature,24
+MED002,Azithromycin 500mg,Antibiotics,Tablet,12.0,22.0,True,Room Temperature,24
+MED003,Ciprofloxacin 500mg,Antibiotics,Tablet,6.0,12.5,True,Room Temperature,36
+MED004,Doxycycline 100mg,Antibiotics,Capsule,5.0,11.0,True,Room Temperature,24
+MED005,Cefixime 200mg,Antibiotics,Tablet,15.0,28.0,True,Room Temperature,24
+MED006,Paracetamol 650mg,Analgesics,Tablet,1.2,3.0,False,Room Temperature,36
+MED007,Ibuprofen 400mg,Analgesics,Tablet,2.5,6.0,False,Room Temperature,36
+MED008,Aceclofenac 100mg,Analgesics,Tablet,4.0,8.5,True,Room Temperature,36
+MED009,Tramadol 50mg,Analgesics,Capsule,8.0,18.0,True,Room Temperature,24
+MED010,Diclofenac Sodium 50mg,Analgesics,Tablet,2.0,5.0,True,Room Temperature,36
+MED011,Metformin 500mg,Chronic_Care,Tablet,1.8,4.5,True,Room Temperature,36
+MED012,Glimepiride 2mg,Chronic_Care,Tablet,3.2,7.5,True,Room Temperature,36
+MED013,Atorvastatin 20mg,Chronic_Care,Tablet,5.5,13.0,True,Room Temperature,36
+MED014,Amlodipine 5mg,Chronic_Care,Tablet,1.5,4.0,True,Room Temperature,36
+MED015,Telmisartan 40mg,Chronic_Care,Tablet,4.2,9.5,True,Room Temperature,36
+MED016,Cetirizine 10mg,Respiratory,Tablet,1.0,2.8,False,Room Temperature,36
+MED017,Montelukast 10mg,Respiratory,Tablet,7.0,15.0,True,Room Temperature,24
+MED018,Levocetirizine 5mg,Respiratory,Tablet,2.2,5.5,False,Room Temperature,36
+MED019,Salbutamol Inhaler 100mcg,Respiratory,Inhaler,45.0,85.0,True,Room Temperature,24
+MED020,Dextromethorphan Syrup 100ml,Respiratory,Syrup,28.0,55.0,False,Room Temperature,24
+MED021,Pantoprazole 40mg,Gastrointestinal,Tablet,3.8,8.0,True,Room Temperature,36
+MED022,Omeprazole 20mg,Gastrointestinal,Capsule,2.2,5.2,True,Room Temperature,36
+MED023,Ondansetron 4mg,Gastrointestinal,Tablet,4.0,9.5,True,Room Temperature,24
+MED024,ORS Electrolyte Powder 21.8g,Gastrointestinal,Sachet,6.0,12.0,False,Room Temperature,36
+MED025,Insulin Glargine 100 IU/ml,Chronic_Care,Vial,210.0,380.0,True,Cold Chain (2-8°C),18

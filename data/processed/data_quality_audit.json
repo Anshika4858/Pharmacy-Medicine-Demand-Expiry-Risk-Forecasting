@@ -1,0 +1,237 @@
+{
+  "audit_timestamp": "2026-11-15T19:24:25.480864",
+  "missing_values_audit": {
+    "daily_sales": {
+      "dataset": "daily_sales",
+      "total_records": 18275,
+      "has_missing": false,
+      "missing_columns": {},
+      "status": "PASS"
+    },
+    "inventory_batches": {
+      "dataset": "inventory_batches",
+      "total_records": 313,
+      "has_missing": false,
+      "missing_columns": {},
+      "status": "PASS"
+    },
+    "medicines": {
+      "dataset": "medicines",
+      "total_records": 25,
+      "has_missing": false,
+      "missing_columns": {},
+      "status": "PASS"
+    }
+  },
+  "domain_range_audit": {
+    "check": "Domain Logic & Range Validation",
+    "passed": true,
+    "issues_found": [],
+    "status": "PASS"
+  },
+  "privacy_and_pii_audit": {
+    "check": "PII / Sensitive Data Audit",
+    "prohibited_keywords_checked": [
+      "patient",
+      "ssn",
+      "aadhar",
+      "phone",
+      "email",
+      "address",
+      "doctor_name",
+      "prescription_id",
+      "medical_record",
+      "credit_card",
+      "ip_address",
+      "gender",
+      "user_age"
+    ],
+    "violations_detected": [],
+    "is_compliant": true,
+    "status": "PASS"
+  },
+  "outlier_analysis": {
+    "method": "IQR Extreme Upper Fence (Q3 + 3.0 * IQR)",
+    "total_records_adjusted": 17,
+    "percentage_adjusted": 0.093,
+    "per_product_stats": {
+      "MED001": {
+        "q25": 44.0,
+        "q75": 64.0,
+        "iqr": 20.0,
+        "upper_fence": 124.0,
+        "severe_outlier_count": 0
+      },
+      "MED002": {
+        "q25": 29.0,
+        "q75": 45.0,
+        "iqr": 16.0,
+        "upper_fence": 93.0,
+        "severe_outlier_count": 0
+      },
+      "MED003": {
+        "q25": 21.0,
+        "q75": 31.0,
+        "iqr": 10.0,
+        "upper_fence": 61.0,
+        "severe_outlier_count": 0
+      },
+      "MED004": {
+        "q25": 18.0,
+        "q75": 26.0,
+        "iqr": 8.0,
+        "upper_fence": 50.0,
+        "severe_outlier_count": 1
+      },
+      "MED005": {
+        "q25": 26.0,
+        "q75": 38.0,
+        "iqr": 12.0,
+        "upper_fence": 74.0,
+        "severe_outlier_count": 0
+      },
+      "MED006": {
+        "q25": 115.0,
+        "q75": 166.0,
+        "iqr": 51.0,
+        "upper_fence": 319.0,
+        "severe_outlier_count": 0
+      },
+      "MED007": {
+        "q25": 39.0,
+        "q75": 56.0,
+        "iqr": 17.0,
+        "upper_fence": 107.0,
+        "severe_outlier_count": 0
+      },
+      "MED008": {
+        "q25": 32.0,
+        "q75": 44.0,
+        "iqr": 12.0,
+        "upper_fence": 80.0,
+        "severe_outlier_count": 0
+      },
+      "MED009": {
+        "q25": 10.0,
+        "q75": 15.0,
+        "iqr": 5.0,
+        "upper_fence": 30.0,
+        "severe_outlier_count": 0
+      },
+      "MED010": {
+        "q25": 26.0,
+        "q75": 35.0,
+        "iqr": 9.0,
+        "upper_fence": 62.0,
+        "severe_outlier_count": 0
+      },
+      "MED011": {
+        "q25": 74.0,
+        "q75": 99.0,
+        "iqr": 25.0,
+        "upper_fence": 174.0,
+        "severe_outlier_count": 0
+      },
+      "MED012": {
+        "q25": 35.0,
+        "q75": 47.0,
+        "iqr": 12.0,
+        "upper_fence": 83.0,
+        "severe_outlier_count": 6
+      },
+      "MED013": {
+        "q25": 53.0,
+        "q75": 71.0,
+        "iqr": 18.0,
+        "upper_fence": 125.0,
+        "severe_outlier_count": 0
+      },
+      "MED014": {
+        "q25": 49.0,
+        "q75": 65.0,
+        "iqr": 16.0,
+        "upper_fence": 113.0,
+        "severe_outlier_count": 1
+      },
+      "MED015": {
+        "q25": 43.0,
+        "q75": 58.0,
+        "iqr": 15.0,
+        "upper_fence": 103.0,
+        "severe_outlier_count": 2
+      },
+      "MED016": {
+        "q25": 55.0,
+        "q75": 79.0,
+        "iqr": 24.0,
+        "upper_fence": 151.0,
+        "severe_outlier_count": 0
+      },
+      "MED017": {
+        "q25": 41.0,
+        "q75": 56.0,
+        "iqr": 15.0,
+        "upper_fence": 101.0,
+        "severe_outlier_count": 1
+      },
+      "MED018": {
+        "q25": 37.0,
+        "q75": 51.0,
+        "iqr": 14.0,
+        "upper_fence": 93.0,
+        "severe_outlier_count": 0
+      },
+      "MED019": {
+        "q25": 16.0,
+        "q75": 23.0,
+        "iqr": 7.0,
+        "upper_fence": 44.0,
+        "severe_outlier_count": 2
+      },
+      "MED020": {
+        "q25": 24.0,
+        "q75": 41.0,
+        "iqr": 17.0,
+        "upper_fence": 92.0,
+        "severe_outlier_count": 0
+      },
+      "MED021": {
+        "q25": 69.0,
+        "q75": 92.0,
+        "iqr": 23.0,
+        "upper_fence": 161.0,
+        "severe_outlier_count": 0
+      },
+      "MED022": {
+        "q25": 44.0,
+        "q75": 59.0,
+        "iqr": 15.0,
+        "upper_fence": 104.0,
+        "severe_outlier_count": 0
+      },
+      "MED023": {
+        "q25": 19.0,
+        "q75": 27.0,
+        "iqr": 8.0,
+        "upper_fence": 51.0,
+        "severe_outlier_count": 4
+      },
+      "MED024": {
+        "q25": 56.0,
+        "q75": 102.0,
+        "iqr": 46.0,
+        "upper_fence": 240.0,
+        "severe_outlier_count": 0
+      },
+      "MED025": {
+        "q25": 11.0,
+        "q75": 17.0,
+        "iqr": 6.0,
+        "upper_fence": 35.0,
+        "severe_outlier_count": 0
+      }
+    },
+    "status": "COMPLETED"
+  },
+  "overall_data_health": "EXCELLENT"
+}

@@ -1,0 +1,77 @@
+{
+  "validation_comparison": {
+    "Baseline_7D_Moving_Average": {
+      "MAE": 9.682,
+      "RMSE": 13.998,
+      "WAPE": 0.1849,
+      "WAPE_pct": 18.49,
+      "R2": 0.8416
+    },
+    "Baseline_Seasonal_Naive_Lag7": {
+      "MAE": 11.333,
+      "RMSE": 16.077,
+      "WAPE": 0.2165,
+      "WAPE_pct": 21.65,
+      "R2": 0.7911
+    },
+    "Ridge_Regression": {
+      "MAE": 8.834,
+      "RMSE": 12.733,
+      "WAPE": 0.1687,
+      "WAPE_pct": 16.87,
+      "R2": 0.869
+    },
+    "Random_Forest": {
+      "MAE": 8.493,
+      "RMSE": 12.249,
+      "WAPE": 0.1622,
+      "WAPE_pct": 16.22,
+      "R2": 0.8787
+    },
+    "XGBoost_Regressor": {
+      "MAE": 8.448,
+      "RMSE": 12.317,
+      "WAPE": 0.1614,
+      "WAPE_pct": 16.14,
+      "R2": 0.8774
+    }
+  },
+  "test_comparison": {
+    "Baseline_7D_Moving_Average": {
+      "MAE": 9.209,
+      "RMSE": 13.14,
+      "WAPE": 0.2095,
+      "WAPE_pct": 20.95,
+      "R2": 0.7823
+    },
+    "Baseline_Seasonal_Naive_Lag7": {
+      "MAE": 11.23,
+      "RMSE": 16.302,
+      "WAPE": 0.2555,
+      "WAPE_pct": 25.55,
+      "R2": 0.6649
+    },
+    "Ridge_Regression": {
+      "MAE": 8.941,
+      "RMSE": 12.68,
+      "WAPE": 0.2034,
+      "WAPE_pct": 20.34,
+      "R2": 0.7973
+    },
+    "Random_Forest": {
+      "MAE": 8.726,
+      "RMSE": 12.602,
+      "WAPE": 0.1985,
+      "WAPE_pct": 19.85,
+      "R2": 0.7998
+    },
+    "XGBoost_Regressor": {
+      "MAE": 8.86,
+      "RMSE": 13.431,
+      "WAPE": 0.2016,
+      "WAPE_pct": 20.16,
+      "R2": 0.7726
+    }
+  },
+  "champion_model": "XGBoost_Regressor"
+}
